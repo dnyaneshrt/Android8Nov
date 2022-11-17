@@ -1,7 +1,12 @@
 package basicPrograms;
 
+import oops.MethodTest;
+
 public class Test2 {
     public static void main(String[] args) {
+
+        MethodTest m1=new MethodTest();
+        System.out.println(m1.roll);
         //every statement must be end with semi colon.
       int number1=50;//variable initialization
       int number2=20;

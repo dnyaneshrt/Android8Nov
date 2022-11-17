@@ -23,5 +23,13 @@ public class InheritanceTest {
       c.child();
       c.parent();
 
+        System.out.println("roll2 value from anather class: "+MethodTest.roll2);
+        MethodTest m1=new MethodTest();
+        System.out.println("roll from MethodTest "+m1.roll);
+        m1.display();
+
+
+
+
     }
 }
